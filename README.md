@@ -14,3 +14,5 @@ Below are the parameters which can be user configured in the parameters file inc
 - **Branch:** The branch of the GitHub repository to use.
 - **Database Name:** The Cosmos DB database name.
 - **Container Name:** The Cosmos DB container name.
+
+[![Deploy To Azure]](https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/ramamurthyk/app-deploy/azuredeploy.json)
