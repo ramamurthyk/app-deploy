@@ -15,4 +15,4 @@ Below are the parameters which can be user configured in the parameters file inc
 - **Database Name:** The Cosmos DB database name.
 - **Container Name:** The Cosmos DB container name.
 
-[![Deploy To Azure]](https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/ramamurthyk/app-deploy/azuredeploy.json)
+[Deploy To Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Framamurthyk%2Fapp-deploy%2Fmaster%2Fazuredeploy.json)
