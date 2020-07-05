@@ -15,4 +15,17 @@ Below are the parameters which can be user configured in the parameters file inc
 - **Database Name:** The Cosmos DB database name.
 - **Container Name:** The Cosmos DB container name.
 
-[Deploy To Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Framamurthyk%2Fapp-deploy%2Fmaster%2Fazuredeploy.json)
+The automatic provisioning requires minimal inputs as the default values are supplied in the template files. It is advisable to login to deploy this template in a new resource group.
+
+The quickest way to deploy this template is as follows:
+- Login to Azure Portal
+- Click [Deploy To Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Framamurthyk%2Fapp-deploy%2Fmaster%2Fazuredeploy.json)
+- Select the Azure subscription where you want the services to be deployed
+- Create a new resource group (preferred)
+- Review and change rest of the parameters which are already pre-populated with default values
+- Agree to T&C and click on Purchase
+
+Please note that the Azure Cosmos DB instance provisioning takes a while (up to 10 minutes). Please monitor the status of the deployment which should create the following resources:
+- Azure app service
+- Azure app service plan
+- Cosmos DB instance
