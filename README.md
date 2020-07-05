@@ -19,6 +19,7 @@ The automatic provisioning requires minimal inputs as the default values are sup
 
 The quickest way to deploy this template is as follows:
 - Login to Azure Portal
+- Click <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Framamurthyk%2Fapp-deploy%2Fmaster%2Fazuredeploy.json" target="_blank">Deploy To Azure</a>
 - Click [Deploy To Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Framamurthyk%2Fapp-deploy%2Fmaster%2Fazuredeploy.json)
 - Select the Azure subscription where you want the services to be deployed
 - Create a new resource group (preferred)
