@@ -29,3 +29,17 @@ Please note that the Azure Cosmos DB instance provisioning takes a while (up to 
 - Azure app service
 - Azure app service plan
 - Cosmos DB instance
+
+## Post deployment verification
+Obtain the URL of the newly created web application. Issue the POST request as shown below:
+
+`curl -X POST https://web-appb4movm6kck2ms.azurewebsites.net/app -d ''`
+
+Please note that the URL will be different based on your Azure environment.
+
+On successful execution, the API should result in a response containing the id and timestamp of the newly created item in the database.
+
+`{
+	"id":"050f71eb-eae1-4736-b8b8-6d6453989992",
+	"timestamp":"2020-07-05T19:08:14.0528635Z"
+}`
