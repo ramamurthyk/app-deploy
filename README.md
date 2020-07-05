@@ -17,7 +17,21 @@ Below are the parameters which can be user configured in the parameters file inc
 
 The automatic provisioning requires minimal inputs as the default values are supplied in the template files. It is advisable to login to deploy this template in a new resource group.
 
-## The quickest way to deploy this template is as follows:
+# The quickest way to deploy this template is as follows
+
+## Azure CLI via Azure Portal
+- Login to Azure Portal
+- Open Cloud Shell
+- Create a new resource group (preferred) by executing the following command. Replace the placeholder <resource-group-name> with the actual value. E.g. 'demo-app'
+	
+`az group create --name <resource-group-name> --location 'North Europe'`
+- Deploy the template by executing the following command. Replace the placeholder <resource-group-name> with the actual value. E.g. 'demo-app'
+
+`az deployment group create --resource-group <resource-group-name> --template-uri https://raw.githubusercontent.com/ramamurthyk/app-deploy/master/azuredeploy.json`
+
+**OR**
+
+## Deploy To Azure
 - Login to Azure Portal
 - Control/Command + Click [Deploy To Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Framamurthyk%2Fapp-deploy%2Fmaster%2Fazuredeploy.json) to open the Azure custom deployment in a new tab
 - Select the Azure subscription where you want the services to be deployed
